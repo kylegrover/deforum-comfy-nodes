@@ -329,6 +329,7 @@ deforum_depth_params = {
     "depth_algorithm": {
         "type": "dropdown",
         "choices": [
+            "Apple Depth Pro",
             "Midas-3-Hybrid",
             "Midas+AdaBins (old)",
             "Midas-3.1-BeitLarge",
@@ -338,7 +339,7 @@ deforum_depth_params = {
             "Zoe+AdaBins (old)",
 
         ],
-        "default": "Zoe"
+        "default": "Apple Depth Pro"
     },
     "midas_weight": {
         "type": "doublespinbox",
